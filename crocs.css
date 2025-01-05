@@ -1,0 +1,292 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* css reset8*/
+*{padding: 0;
+margin: 0;
+font: size 100%;
+line-height: 1em;} 
+
+/*defult styles for whole page*/
+body {
+columns: #06402B;
+border-color: #06402B;
+background-color: #101010;
+}
+
+/* content container to centre content */
+.container {
+    max-width: 1020px;
+    margin: 0 auto 0 auto;
+}
+
+/* nav bar styles */
+ul.navbar{
+    list-style-type: none;
+    margin: 24px 0;
+    padding: 0;
+    display: flex;
+    gap:24px;
+    border:2px solid #ffffff;
+    background-color: #899B75;
+}
+
+
+
+ul.navbar li a{
+    display: block;
+    padding:1rem;
+    background-color: #899B75;
+    color: #101010;
+    
+}
+
+ul.navbar li a:hover{
+    background-color: #eb9c5c;
+}
+
+/* colour container for text*/
+.greenbox{
+    margin:0px;
+    padding: 1.5rem;
+    border:2px solid #ffffff;
+    background-color: #899B75;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+/*colour container 2*/
+.yellowbox{margin:0;
+    padding: 1.5rem;
+    border:2px solid #ffffff;
+    background-color: #817d68;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+/* default styling for heading */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  h1.black{
+    color: #101010 ;
+  }
+
+/*specific styles*/
+h2{
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1rem;
+  }
+
+/*specific styles*/
+h1.neuton-bold {
+        font-family: "Neuton", serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 0rem;
+      }
+
+/*specific styles*/
+blockquote.neuton-regular {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: #ffffff;
+  }
+
+
+/*Paragraphs */
+p.neuton-regular {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: #ffffff;
+  }
+
+/*paragraph large */
+p.large {
+font-family: "Playfair Display", Georgia, 'Times New Roman', Times,
+serif;
+font-weight: 400;
+font-style: italic;
+line-height: 1.5;
+font-size: 1.5rem;
+margin-bottom: 2.5rem;
+}
+
+ul {
+    list-style: disc outside;
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+    }
+ul li 
+    .neuton-regular-italic {
+     font-family: "Neuton", serif;
+     font-weight: 400;
+     font-style: italic;
+     }
+    
+
+    /* hyperlinks */
+a {
+font-family:inherit;
+font-size:inherit;
+line-height: inherit;
+color: #8f9984
+}
+
+a:hover {
+    color: #817d68; /* Changes to this color on hover */
+}
+
+a:visited {
+    color: #eb9c5c; /* Keeps this color for visited links */
+}
+
+
+    /* images*/
+    .contain {
+        display: flex;              
+        justify-content: center;    /* Horizontally center the image */
+        align-items: center;        /* Vertically align if needed */
+        width: 100%;                
+        height: auto;               
+        padding: 1rem 0;            /* Add padding above and below the image */
+    }
+    
+    img {
+        max-width: 800px;           
+        width: 80%;                 
+        height: auto;               
+        display: block;             
+    }
+          
+
+    
+
+/*blockquote*/
+figure.quote {
+border-left: 8px solid #eb9c5c;
+padding:1.5rem 0 1.5rem 2rem;
+margin-bottom: 2rem;
+}
+
+figure.quote p{
+    margin-bottom:0;
+    }
+    figure.quote blockquote {
+    margin-bottom:.5rem;
+    }
+    figure.quote figcaption p{
+    font-weight:700;
+    }
+
+    footer {
+        padding: 1.5rem 0 1.5rem 0;
+        margin-top:2rem;
+        border-top:1px solid #899B75;
+    }
+
+    main{
+        margin-bottom: 2.5rem;
+    }
+
+    header{
+        border-bottom:2px solid #899B75;
+        padding:1.5rem 0;
+        }
+        header p.logo{
+        font-weight: 700;
+        margin-bottom:0;
+        font-size:1.75rem;
+        line-height: 1.1;
+        }
+
+    .colour-block{
+        padding:1.5rem 0 1.5rem 0;
+        background-color:#817d68;
+        margin-bottom:2.5rem;
+    }
+
+    .highlight {
+        background-color: #eb9c5cef;
+        padding:0 0.5rem;
+    }
+
+    /*css grids*/
+         .grid {
+         display: flex;
+         gap:24px;
+        flex-direction: row;
+    }
+
+    /* CSS grids column widths */
+.grid-col-third {
+    flex-basis: 33.33%;
+    }
+    .grid-col-third {
+    flex-basis: 33.3%;
+    }
+
+    /*p {
+        margin:0;
+        padding: 1.5rem;
+        border:2px solid #ffffff;
+        background-color: #8f9984;
+        }
+        @media only screen and (max-width:620px) {
+            p{
+        color:#ffffff;
+        background-color: #06402B;
+        }
+    }*/
+
+    /* media queries */
+@media only screen and (max-width:1068px) 
+    { .container { margin: 0 24px 0 24px;}
+    }
+    
+@media only screen and (max-width: 768px) 
+    {.grid {flex-direction: column;}
+    
+    
+@media only screen and (max-width: 600px) 
+    { .container { margin: 0 16px 0 16px;}
+
+    h1 {font-size: 2.25rem;
+        margin-bottom: 1rem;}
+
+    h2 {font-size: 1.875rem;}
+        
+    h3 {font-size: 1.5rem;}
+
+    h4 {font-size: 1.25rem;}
+    }
+
+/*add below headings*/
+    p.large {font-size: 1.25rem;
+             margin-bottom: 2rem;}
+    p {font-size: 1rem;
+       margin-bottom: 1rem;}
+    
+/*add below paragraphs*/
+    ul {margin-bottom: 1rem;}
+    ul li {font-size: 1rem;
+        margin-bottom: .5rem;}
+
+/*add below lists*/
+header p.logo {font-size:1.25rem;}
+.colour-block {padding:2rem 0;
+               margin-bottom:2rem;}
+}

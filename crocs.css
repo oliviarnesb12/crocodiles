@@ -34,14 +34,11 @@ ul.navbar{
     background-color: #899B75;
 }
 
-
-
 ul.navbar li a{
     display: block;
     padding:1rem;
     background-color: #899B75;
-    color: #101010;
-    
+    color: #101010;  
 }
 
 ul.navbar li a:hover{
@@ -75,7 +72,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #ffffff;
   }
 
-  h1.black{
+h1.black{
     color: #101010 ;
   }
 
@@ -103,7 +100,6 @@ blockquote.neuton-regular {
     font-size: 1.125rem;
     color: #ffffff;
   }
-
 
 /*Paragraphs */
 p.neuton-regular {
@@ -138,7 +134,7 @@ ul li
      }
     
 
-    /* hyperlinks */
+/* hyperlinks */
 a {
 font-family:inherit;
 font-size:inherit;
@@ -155,7 +151,7 @@ a:visited {
 }
 
 
-    /* images*/
+ /* images*/
     .contain {
         display: flex;              
         justify-content: center;    /* Horizontally center the image */
@@ -172,8 +168,6 @@ a:visited {
         display: block;             
     }
           
-
-    
 
 /*blockquote*/
 figure.quote {
